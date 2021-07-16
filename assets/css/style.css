@@ -43,7 +43,7 @@
     
 
 }
-.main, .propaganda{
+.main, .propaganda, .depoimentos{
     display: flex;
     justify-content: flex-end;
     align-items: center;
@@ -69,6 +69,8 @@
 .main__subtitulo__wrapper{
     margin-top: 150px;
     padding-left: 30px;
+    max-width: 650px;
+    width: 100%;
 }
 .main__subtitulo{
     color: white;
@@ -87,4 +89,51 @@
     background-color: black;
     color: white;
     cursor: pointer;
+}
+.main__button--style{
+    margin-top: 70px;
+    margin-bottom:150px ;
+    height: 35px;
+    width: 170px;
+    border-radius: 20px;
+    border: 1px solid white;
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+.main__button--style--ajuste{
+    margin-left: 50px;
+}
+.depoimentos__titulo{
+    color: white;
+    font-size: 70px;
+    max-width: 700px;
+    font-family: 'DM Serif Display', serif;
+    font-style: italic;
+    font-weight: 400;
+}
+.foto__depoimento{
+    
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: white;
+    margin-right: 20px;
+}
+.nome__depoimento{
+color: white;
+font-size: 20px;
+font-weight: bold;
+}
+.nome__subtitulo{
+    color: white;
+    margin-left: 59px;
+}
+.depoimento_wrapper{
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+}
+.destaque__bg{
+
 }
